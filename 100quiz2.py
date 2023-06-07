@@ -10,7 +10,6 @@ print(x<y or z>y)
 #Question3
 #tahmin cikti 18 ile 30 yaş arasında bir gençsiniz(dogru)
 yas = 20
-
 if yas < 18:
     print("18 yaşından küçüksünüz")
 elif yas >= 18 and yas < 30:
@@ -25,6 +24,10 @@ my_dictionary = { "k1":10, "k2k":"a", "k32":30, "k4":"c"}
 for word in my_dictionary.values():
    if word=="c":
     print("c var")
+    '''cevap
+    if "c" in my_dictionary.values():
+        print("evet")
+    '''
 #Question5
 #anahtarlar içinde a harfinin geçip geçmediğini gösteren bir if koşulu yazınız
 my_other_dictionary = {"b":203,"c":"a","a":400,"d":"f"}
@@ -43,10 +46,8 @@ r_list = [3,2,5,8,4,6,9,12]
 pi=3.14
 cevre_list= []
 for a in r_list:
-    cevre = 2 * pi * a
-    print("kod calısıyo")
-    cevre_list=cevre
-print(cevre_list)
+   cevre_list.append(2*pi*a)
+    print(cevre_list)
 #Question8
 age_name_list = [("Ahmet",30),("Ayse",24),("Mehmet",40),("Fatma",29)]
 for yas_y in range(len(age_name_list)):
