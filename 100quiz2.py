@@ -50,14 +50,16 @@ for a in r_list:
     print(cevre_list)
 #Question8
 age_name_list = [("Ahmet",30),("Ayse",24),("Mehmet",40),("Fatma",29)]
-for yas_y in range(len(age_name_list)):
-    print(age_name_list[yas_y][1])
-    #print(new_list = age_name_list.append([yas_y][1]))
+new_list=[]
+for (isim,yas) in age_name_list:
+    new_list.append(yas)
+print(new_list)
 #Question9
 metal_list = ["Metallica","Iron Maiden","Dream Theater","Megadeth","AC/DC"]
-from random import metal_list
-print(metal_list[randint(0,len(metal_list))])
+from random import randint
+print(metal_list[randint(0,len(metal_list)-1)])
 #Question10
 number_list = [5,7,18,21,20,10,405,24]
 #[num % 2 == 0 for num in number_list]
 #sadece ciftler yazilir 18 20 10 24
+#cevap false ve true ile  tek tek kurulan num listesi 
