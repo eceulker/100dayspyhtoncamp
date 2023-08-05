@@ -1,0 +1,13 @@
+pwd
+ls
+cd ..
+clear
+touch
+rm
+mkdir
+*git status
+git config --global user.name
+git config --global user.email
+*git add
+*git commit
+*git log
