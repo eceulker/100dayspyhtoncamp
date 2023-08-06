@@ -11,3 +11,7 @@ git config --global user.email
 *git add
 *git commit
 *git log
+git commit
+git restore
+commit examples
+what is branch
