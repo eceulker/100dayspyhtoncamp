@@ -21,4 +21,5 @@ sublime text
 git checkout
 git branch
 git switch
-
+reset
+revert
